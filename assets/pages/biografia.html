@@ -3,67 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/styles/biografia.css">
     <title>Secciones de Presentacion</title>
 </head>
 <body>
     <header>
-        <h1>Yojhan Stanley Garcia Palencia</h1>
+        <div class="content">
+          <hgroup>
+            <h1>Mi portafolio</h1>
+          </hgroup>
+        </div>
+        <div class="overlay"></div>
+      </header>
+      <section class="site">
         <nav>
-            <ul>
-                <li><a href="">Sobre mi</a></li>
-                <li><a href="">Proyectos</a></li>
-                <li><a href="">Habilidades</a></li>
-                <li><a href="">Contacto</a></li>
-                <li><a href="">Musica</a></li>
-            </ul>
+          <a href="#sobre-mi">Sobre Mi</a>
+          <a href="">Proyectos</a>
+          <a href="">Habilidades</a>
+          <a href="">Musica</a>
+          <a href="">Contacto</a>
         </nav>
-    </header>
-
-    <div>
-        <h2>Sobre mi</h2>
-        <p>Mi nombre es Yojhan Stanley Garcia Palencia, tengo 18 años y me gusta mucho el futbol y los videojuegos estudio perito en Informatica en Kinal y mi mayor sueño es triunfar en la vida</p>
-    </div>
-    <hr>
-    <div class="Proyectos">
-        <h2>Proyectos</h2>
-        <div class="contenedor-imagen">
-            <img src="https://i.stack.imgur.com/meKrf.png">
+        <div class="sobre-mi">
+            <h2>Sobre Mi</h2>
+            <p>Mi nombre es Yojhan Stanley Garcia Palencia, tengo 18 años y me gusta mucho el futbol y los videojuegos estudio perito en Informatica en Kinal y mi mayor sueño es triunfar en la vida</p>
+            <img src="/assets/resource/img/yo.png" >
         </div>
-        <div class="contenedor-imagen">
-            <img src="https://javiergarciaescobedo.es/images/stories/apuntes/Java/JavaFX/Captura_de_pantalla_2021-01-15_a_las_9.23.17_9702d.png">
+        <div class="Proyectos">
+            <h2>Proyectos</h2>
+            
         </div>
-
-    </div>
-    <hr>
-    <div class="Habilidades">
-        <h2>Habilidades</h2>
-        <p>Algunas de mis habilidades mas importantes es tener bastante creatividad, otra seria que cuando me propongo alguna cosa o meta, trabajo mucho para conseguirlo, tmb soy bueno trabajando bajo presion.</p>
-    </div>
-    <hr>
-    <div class="Musica">
-        <h2>Musica</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZkUTJkkOnzw?si=CnQKqv1IiwbYqVcG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-    </div>
-    <hr>
-    <div class="Formulario">
-        <h2>Contacto</h2>
-        <form action="#" method="post">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-    
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="Telefono">Telefono:</label>
-            <input type="telefono" id="telefono" name="telefono" required>
-    
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-    
-            <button type="submit">Enviar Mensaje</button>
-        </form>
-    </div>
+      </section> 
+      
+    <script src="./assets/scripts/biografia.js"></script>
 </body>
 </html>

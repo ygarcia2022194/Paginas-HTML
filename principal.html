@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pasatiempo</title>
     <link rel="stylesheet" href="./assets/styles/principal.css">
+    <link rel="stylesheet" href="./assets/styles/lightbox.css">
 </head>
 <body>
     <header>
@@ -42,32 +43,42 @@
                     lo practicaba mas frecuente. 
                 </p>
             </section>
-            
         </section>
     </div>
-    <section id="gallery">
-        <div class="gallery-container">
-            <figure class="gallery-item">
-                <img src="./assets/resource/img/barca.png" alt="Imagen 1">
-                <figcaption>Descripcion imagen</figcaption>
-            </figure>
-            <figure class="gallery-item">
-                <img src="./assets/resource/img/Champions.png" alt="Imagen 1">
-                <figcaption>Descripcion imagen</figcaption>
-            </figure>
-            <figure class="gallery-item">
-                <img src="" alt="Imagen 1">
-                <figcaption>Descripcion imagen</figcaption>
-            </figure>
+
+    <div class="container">
+        <div class="gallery">
+            <a href="./assets/resource/img/imagen1.jfif" data-lightbox="models" data-title="Imagen1">
+                <img src="./assets/resource/img/imagen1.jfif" alt="">
+            </a>
+            <a href="./assets/resource/img/imagen2.jpg" data-lightbox="models" data-title="Imagen1">
+                <img src="./assets/resource/img/imagen2.jpg" alt="">
+            </a>
+            <a href="./assets/resource/img/imagen3.jpg" data-lightbox="models" data-title="Imagen1">
+                <img src="./assets/resource/img/imagen3.jpg" alt="">
+            </a>
+            <a href="./assets/resource/img/imagen4.jpg" data-lightbox="models" data-title="Imagen1">
+                <img src="./assets/resource/img/imagen4.jpg" alt="">
+            </a>
+            <a href="./assets/resource/img/imagen9.avif" data-lightbox="models" data-title="Imagen1">
+                <img src="./assets/resource/img/imagen9.avif" alt="">
+            </a>
+            <a href="./assets/resource/img/imagen6.jpg" data-lightbox="models" data-title="Imagen1">
+                <img src="./assets/resource/img/imagen6.jpg" alt="">
+            </a>
+            <a href="./assets/resource/img/imagen7.jpg" data-lightbox="models" data-title="Imagen1">
+                <img src="./assets/resource/img/imagen7.jpg" alt="">
+            </a>
+            <a href="./assets/resource/img/imagen8.jpg" data-lightbox="models" data-title="Imagen1">
+                <img src="./assets/resource/img/imagen8.jpg" alt="">
+            </a>
         </div>
-        <nav class="gallery-navigation">
-            <button class="nav-button prev-button">Anterior</button>
-            <button class="nav-button next-button">Siguiente</button>
-        </nav>
-    </section>
+    </div>
+   
     
 
 
     <script src="./assets/scripts/principal.js"></script>
+    <script src="./assets/scripts/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>

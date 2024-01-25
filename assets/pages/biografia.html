@@ -1,52 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/styles/biografia.css">
-    <title>Portafolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/styles/biografia.css">
+  <title>Portafolio</title>
 </head>
+
 <body>
-    <header>
-        <div class="content">
-          <hgroup>
-            <h1>Mi portafolio</h1>
-          </hgroup>
-        </div>
-        <div class="overlay"></div>
-      </header>
-      <section class="site">
-        <nav>
-          <a href="#sobre-mi">Sobre Mi</a>
-          <a href="">Proyectos</a>
-          <a href="">Habilidades</a>
-          <a href="">Musica</a>
-          <a href="">Contacto</a>
-        </nav>
-        <div class="sobre-mi">
-            <h2>Sobre Mi</h2>
-            <p>Mi nombre es Yojhan Stanley Garcia Palencia, tengo 18 años y me gusta mucho el futbol y los videojuegos estudio perito en Informatica en Kinal y mi mayor sueño es triunfar en la vida</p>
-            <img src="/assets/resource/img/yo.png" >
-        </div>
-        <div class="Proyectos">
-            <h2>Proyectos</h2>
-            <h1>Tonys Kinal</h1>
-            <p>
-                Este proyecto trata de una empresa de manejo y administracion de fiestas, donde se almacenan distintos datos especificos para la administracion de fiestas o diferentes celebraciones, donde se aplica el lenguaje de programacion de Java y se emplea tambien JavaFX, los datos se guardan en el gestor de datos MYSQL y los estilos de las ventanas aparte de emplear css se diseñan totalmente en SceneBuilder.
-            </p>
-            <img src="/assets/resource/img/proyecto tonys.jpg" alt="">
-            <h1>Clothes Store</h1>
-            <p>Este proyecto es una pagina web de una tienda de ropa, donde se administran todos las ventas, compras, proveedores, clientes, etc, para tener toda la informacion lo mas armoniosa o administrada posible, el proyecto esta echo con el lenguaje de programacion Java, ya que es una aplicacion web, tambien se utilizan otras extenciones como es la principal HTML, css y JavaScript, los datos se almacenan en el gestor de datos MYSQL</p>
-            <img src="/assets/resource/img/store.jpg" alt="">
-        </div>
-        <div class="Habilidades">
-            <h2>Habilidades</h2>
-            <p></p>
-            
-        </div>
-      </section> 
-      
-    <script src="./assets/scripts/biografia.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/animejs"></script>
+  <header>
+    <div class="content">
+      <hgroup>
+        <h1>Mi portafolio</h1>
+      </hgroup>
+    </div>
+    <div class="overlay"></div>
+  </header>
+  <section class="site">
+    <nav>
+      <a href="#sobre-mi">Sobre Mi</a>
+      <a href="">Proyectos</a>
+      <a href="">Habilidades</a>
+      <a href="">Multimedia</a>
+      <a href="">Contacto</a>
+    </nav>
+    <div class="sobre-mi">
+      <h2>Sobre Mi</h2>
+      <p>Mi nombre es Yojhan Stanley Garcia Palencia, tengo 18 años y me gusta mucho el futbol y los videojuegos estudio
+        perito en Informatica en Kinal y mi mayor sueño es triunfar en la vida</p>
+      <img src="/assets/resource/img/yo.png">
+    </div>
+    <div class="Proyectos">
+      <h2>Proyectos</h2>
+      <h1>Tonys Kinal</h1>
+      <p>
+        Este proyecto trata de una empresa de manejo y administracion de fiestas, donde se almacenan distintos datos
+        especificos para la administracion de fiestas o diferentes celebraciones, donde se aplica el lenguaje de
+        programacion de Java y se emplea tambien JavaFX, los datos se guardan en el gestor de datos MYSQL y los estilos
+        de las ventanas aparte de emplear css se diseñan totalmente en SceneBuilder.
+      </p>
+      <img src="/assets/resource/img/proyecto tonys.jpg" alt="">
+      <h1>Clothes Store</h1>
+      <p>Este proyecto es una pagina web de una tienda de ropa, donde se administran todos las ventas, compras,
+        proveedores, clientes, etc, para tener toda la informacion lo mas armoniosa o administrada posible, el proyecto
+        esta echo con el lenguaje de programacion Java, ya que es una aplicacion web, tambien se utilizan otras
+        extenciones como es la principal HTML, css y JavaScript, los datos se almacenan en el gestor de datos MYSQL</p>
+      <img src="/assets/resource/img/store.jpg" alt="">
+    </div>
+    <div class="Habilidades">
+      <h2>Habilidades</h2>
+      <p>Mis habilidades se basan en la programacion, mas orientado a java, tambien HTML, css ya que son esenciales para
+        programar aplicaciones web, mas sin embargo tambien en el gestor de datos Mysql que es otra pieza esencial para
+        la programacion. Estas habilidades las eh ido adquiriendo en los 2 años de mi carrera, tampoco soy experto, pero
+        aprendo poco a poco y se que algun dia con trabajo y esfuezo pueda llegar a triunfar tanto en el ambito laboral
+        como en el estudio</p>
+      <img src="/assets/resource/img/css.png" alt="">
+      <img src="/assets/resource/img/html.png" alt="">
+      <img src="/assets/resource/img/Java.jpg" alt="">
+      <img src="/assets/resource/img/mysql.png" alt="">
+
+    </div>
+    <div class="Multimedia">
+      <h2>Multimedia</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/SnMnV0A7i9k?si=iS4E8hd9lmXSGhqo"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+    <div class="Contacto">
+      <h2>Contacto</h2>
+      <center>
+        <form action="#" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="Telefono">Telefono:</label>
+          <input type="telefono" id="telefono" name="telefono" required>
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+          <button type="submit">Enviar Mensaje</button>
+        </form>
+      </center>
+    </div>
+  </section>
+
+  <script src="./assets/scripts/biografia.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/animejs"></script>
 </body>
+
 </html>

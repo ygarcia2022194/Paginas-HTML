@@ -88,6 +88,14 @@ img {
 .sobre-mi{
     width: 800px;
     margin: 0 auto;
+    font-size: 18px; 
+    font-weight: 400; 
+    color: black; 
+    background: #EDF7F7;
+    align-items: center;
+    -webkit-box-shadow: 10px 10px 16px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 16px -3px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 16px -3px rgba(0,0,0,0.75);
 }
 
 .site {
@@ -139,4 +147,17 @@ hr{
     box-shadow: 5px 5px 10px;
     height: 5%;
     width: 95%;
+}
+
+.Proyectos{
+    width: 800px;
+    margin: 0 auto;
+    font-size: 18px; 
+    font-weight: 400; 
+    color: black; 
+    background: #EDF7F7;
+    align-items: center;
+    -webkit-box-shadow: 10px 10px 16px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 16px -3px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 16px -3px rgba(0,0,0,0.75);
 }
